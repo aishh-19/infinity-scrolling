@@ -1,0 +1,16 @@
+.container{
+    display:  grid;
+    grid-template-columns: repeat(4,200px);
+    gap: 20px;
+    align-content: center;
+}
+.box{
+    border: 3px solid black;
+    text-align: center;
+    /* width: 200px; */
+    background-color: pink;
+    border-radius: 10px;
+}
+img{
+    width: 190px;
+}
